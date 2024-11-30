@@ -17,6 +17,8 @@ public class exceptionHandling {
         }catch(Exception e){
             System.out.println("An unexpected exception occured ");
             System.out.println("Error message: "+e);
+        }finally{
+            System.out.println("Ran the Finally block");
         }
     }
 }
